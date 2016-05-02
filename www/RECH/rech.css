@@ -1,0 +1,104 @@
+element.style {
+}
+.farbtastic .wheel {
+    background: url('../images/wheel.png') no-repeat;
+    width: 195px;
+    height: 195px;
+}
+.farbtastic, .farbtastic .wheel {
+    width: 195px;
+    height: 195px;
+}
+.farbtastic * {
+    position: absolute;
+    cursor: crosshair;
+}
+
+div {
+    display: block;
+}
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}    
+
+
+.imgrech{
+	background-color: white;
+	width: 90%;
+	margin-bottom: 15%;
+}
+
+.imgligne{
+	background-color: white;
+	width: 100%;
+	margin-bottom: 10%;
+
+}
+
+
+.imglignep{
+	background-color: white;
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
+
+}
+
+.text{
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 2px 2px 10px gray;
+	width: 300px;
+	overflow: auto;
+	position: fixed;
+	margin-left: 120px;
+	height: 100%;
+	text-align: justify;
+	font-size: 14px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+p {
+	font-family: Helvetica, sans-serif;
+}
+
+
+
+.img123{
+	padding-bottom:10%;
+}
+
+.img{
+	background-color: white;
+	box-shadow: 2px 2px 10px gray;
+	width:500px;
+	overflow: auto;
+	position: fixed;
+	margin-left: 500px;
+	height:100%
+}
+
